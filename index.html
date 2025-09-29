@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+          <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+    </head>
+    <body>
+        <a-scene physics="debug:true; gravity:-9.8">
+      <a-camera><a-cursor></a-cursor></a-camera>
+      <a-plane static-body
+          color="tan"
+          height="30"
+          width="30"
+         position="0 0 -3"
+         rotation="-90 0 0">
+          
+      </a-plane>
+        
+        <a-sphere dynamic-body
+        color="blue"
+        radius="1"
+        position="-7 10 -10">
+            
+        </a-sphere>
+       
+       <a-box static-body
+           color="red"
+           height="1"
+           width="1"
+           length="1"
+           position="-8 1 -10">
+        
+           
+       </a-box>
+         <a-box dynamic-body
+           color="purple"
+           height="4"
+           width="0.5"
+           length="5"
+           position="2 3 -10">
+        
+           
+       </a-box>
+         </a-box>
+         <a-box dynamic-body
+           color="purple"
+           height="4"
+           width="0.5"
+           length="5"
+           position="-4 3 -10">
+        
+           
+       </a-box>
+         </a-box>
+         <a-box dynamic-body
+           color="purple"
+           height="4"
+           width="0.5"
+           length="5"
+           position="-2 3 -10">
+        
+           
+       </a-box>
+         </a-box>
+         <a-box dynamic-body
+           color="purple"
+           height="4"
+           width="0.5"
+           length="5"
+           position="0 3 -10">
+        
+           
+       </a-box>
+        </a-box>
+         <a-box dynamic-body
+           color="purple"
+           height="4"
+           width="0.5"
+           length="5"
+           position="4.5 3 -10">
+        
+           
+       </a-box>
+                 <a-box dynamic-body
+           color="purple"
+           height="4"
+           width="0.5"
+           length="5"
+           position="6.6 3 -10">
+        
+           
+       </a-box>
+       <a-box dynamic-body
+           color="pink"
+           height="1.5"
+           width="3"
+           length="3"
+           position="5 7 -10">
+        
+           
+       </a-box>
+       <a-sphere dynamic-body
+        color="green"
+        radius="1"
+        position="5 9 -10">
+            
+        </a-sphere>
+        </a-scene>
+    </body>
+</html>
